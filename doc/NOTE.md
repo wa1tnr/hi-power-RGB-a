@@ -23,33 +23,33 @@ High power RGB LED work
 ```
     1440 x 0.06 Ampere = 86.40 Amperes
 
-      $ dc -e '5 k 1440 0.06 * p q'  86.40
+      $ dc -e '5 k 1440 0.06 * p q'  86.40 Amperes
 
     5 Volts x 86.40 Amperes = 432 Watts  @5VDC
 
-      $ dc -e '5 k 5 86.4 * p q'   432.0
+      $ dc -e '5 k 5 86.4 * p q'   432.0 Watts
 ```
 
   * Ref project power supply capable of 300 Watts output @5VDC
 ```
-      $ dc -e '5 k 5 60 * p q'   300
+      $ dc -e '5 k 5 60 * p q'   300 Watts
 ```
   * Ref project author refers to this as '70%' capable (the PSU can
     deliver 70% of the required current @5VDC)
 
-    70% of 86 Watts
+    70% of 86 Amps gives 60 Amps
 ```
-      $ dc -e '5 k 86.4 0.7 * p q'   60.48
+      $ dc -e '5 k 86.4 0.7 * p q'   60.48 Amperes
 ```
   * Indeed this is 300 Watts (302.40 W)
 
 ```
-      $ dc -e '5 k 5 86.4 * 0.7 * p q'   302.40
+      $ dc -e '5 k 5 86.4 * 0.7 * p q'   302.40 Watts
 ```
 
   * Ref project uses 24 RGB strips in three groups of eight strips
 ```
-      $ dc -e '0 k 1440 24 / p q'   60
+      $ dc -e '0 k 1440 24 / p q'   60 NeoPixels per strip
 ```
 
 Additional citations
