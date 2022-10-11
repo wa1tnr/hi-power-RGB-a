@@ -50,4 +50,14 @@ Additional citations
 
   https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels#giant-power-supplies-2894491
 
+
+
+Random (hah) selection of related factoids follows.
+
+  * Railroad signals - use DC current at rather low voltages, on the tracks, to detect the presence of a train - only between two traffic signals.
+
+    They do this by shorting the two railroad tracks together, through the body of the train.  Which closes a switch (by completing a circuit).
+
+    This is a pretty good sized distance to work with such a low DC voltage; they've already worked out those details.  One may assume the low voltage aspect makes the idea and its implementation especially safe (for both human and animal 'visitors' to the railroad track).
+
 END.
