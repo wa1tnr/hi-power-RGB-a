@@ -36,6 +36,14 @@ High power RGB LED work
 ```
   * Ref project author refers to this as '70%' capable (the PSU can
     deliver 70% of the required current @5VDC)
+```
+      $ dc -e '5 k 86.4 0.7 * p q'   60.48
+```
+  * Indeed this is 300 Watts (302.40 W)
+
+```
+      $ dc -e '5 k 5 86.4 * 0.7 * p q'   302.40
+```
 
   * Ref project uses 24 RGB strips in three groups of eight strips
 ```
