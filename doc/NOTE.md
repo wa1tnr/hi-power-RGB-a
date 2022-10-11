@@ -36,6 +36,8 @@ High power RGB LED work
 ```
   * Ref project author refers to this as '70%' capable (the PSU can
     deliver 70% of the required current @5VDC)
+
+    70% of 86 Watts
 ```
       $ dc -e '5 k 86.4 0.7 * p q'   60.48
 ```
