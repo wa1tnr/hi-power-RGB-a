@@ -37,4 +37,9 @@ High power RGB LED work
   * Ref project author refers to this as '70%' capable (the PSU can
     deliver 70% of the required current @5VDC)
 
+  * Ref project uses 24 RGB strips in three groups of eight strips
+```
+      $ dc -e '0 k 1440 24 / p q'   60
+```
+
 END.
