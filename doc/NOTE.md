@@ -75,4 +75,12 @@ Random (hah) selection of related factoids follows.
 
     This is a pretty good sized distance to work with such a low DC voltage; they've already worked out those details.  One may assume the low voltage aspect makes the idea and its implementation especially safe (for both human and animal 'visitors' to the railroad track).
 
+Extras
+
+  **The dc program** is a calculator:
+
+  https://linux.die.net/man/1/dc
+
+  _(coincidentally named similar to the topic under discussion)_
+
 END.
