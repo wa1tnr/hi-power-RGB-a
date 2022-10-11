@@ -42,4 +42,12 @@ High power RGB LED work
       $ dc -e '0 k 1440 24 / p q'   60
 ```
 
+Additional citations
+
+  Giant Power Supplies
+
+    ('Powering NeoPixels' from 'Adafruit NeoPixel Überguide' By Phillip Burgess)
+
+  https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels#giant-power-supplies-2894491
+
 END.
