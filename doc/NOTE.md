@@ -50,6 +50,11 @@ Additional citations
 
   https://learn.adafruit.com/adafruit-neopixel-uberguide/powering-neopixels#giant-power-supplies-2894491
 
+  Low-Power Portable work
+
+    ('Sipping Power With NeoPixels' (on learn.adafruit.com) By Phillip Burgess)
+
+  https://learn.adafruit.com/sipping-power-with-neopixels
 
 
 Random (hah) selection of related factoids follows.
